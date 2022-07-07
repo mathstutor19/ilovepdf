@@ -1,24 +1,8 @@
-*,
-::after,
-::before {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@1,300&family=Play&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu&family=Vazirmatn:wght@200&display=swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
-    font-family: var(--ff-secondary);
-    background: var(--clr-grey-10);
-    color: var(--clr-grey-1);
-    line-height: 1.5;
-    font-size: 0.875rem;
-}
-ul {
     list-style-type: none;
-}
-a {
-    text-decoration: none;
-}
-img {
-    width: 100%;
-    display: block;
+    font-family: 'Inter', sans-serif;
 }

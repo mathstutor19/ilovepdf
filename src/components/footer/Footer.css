@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    height: 447px;
+    background-color: #F6F6F8;
+    margin-top: 5px;
+}
+
+.footer_top{
+    width: 60%;
+    height: 77.5%;
+    margin: auto;
+    border-bottom: 1px solid #B4B4B4;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.footer_top_box h3{
+    font-size: 15px;
+    color: #E63C2D;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer_collection li{
+    margin-top: 10px;
+    color: #505350;
+}
+
+.footer_top_box img{
+    margin-top: 80px;
+    margin-left: -16px;
+}
+.footer_top_box img:last-child{
+    margin-left: 10px;
+}

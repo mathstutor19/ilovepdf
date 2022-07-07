@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@1,300&family=Play&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500&family=Roboto:ital@0;1&family=Russo+One&family=Ubuntu&family=Vazirmatn:wght@200&display=swap');
+
+.banner_text{
+    width: 100%;
+    height: 277px;
+    background: linear-gradient(90deg,#882e27,#6d869a 50%,#231641) #44287d;
+}
+
+.banner_text_wrapper{
+    width: 56%;
+    height: 400px;
+    margin: auto;
+}
+
+.banner_text h1{
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    padding-top: 35px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.banner_text h2{
+    text-align: center;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 500;
+    padding:5px 10px;
+    line-height: 1.4;
+    max-width: 980px;
+    margin-left: 40px;
+}
+
+.banner_categories{
+    width: 93%;
+    min-height: 100vh;
+    background-color: #fff;
+    margin: auto;
+    margin-top: -80px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.banner_category_box{
+    width: 293px;
+    height: 241px;
+    border: 1px solid #f7f7f7;
+    cursor: pointer;
+}
+.banner_category_box:hover{
+    background-color: #F3F0EC;
+}
+.banner_category_box img{
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.banner_category_box h2{
+    font-size: 20px;
+    padding: 15px 32px;
+    color: #333;
+}
+
+.banner_category_box p {
+    font-size: 12px;
+    padding: 0px 32px;
+    line-height: 1.5;
+    width: 270px;
+    color: #333;
+}
+
+.banner_looking{
+    width: 100%;
+    height: 734px;
+    background-color: #fff;
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_looking_wrapper{
+    width: 60.5%;
+    height: 604px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+}
+
+
+.banner_looking_wrapper_box img{
+    width: 461px;
+    height: 372px;
+    margin-top: 100px;
+}
+
+.banner_looking_wrapper_box_text_wrapper{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.banner_looking_wrapper_box_text{
+    margin: 10px 0px;
+}
+.banner_looking_wrapper_box_text:first-child{
+    background-color: #F6F6F8;
+    border-radius: 5px;
+}
+
+.banner_looking_wrapper_box_text h3{
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.banner_looking_wrapper_box_text p{
+    padding-left: 20px;
+    color: #333;
+    padding: 0px 30px;
+}
+
+.banner_looking_wrapper_box_text p a{
+    color: #E5322D;
+    font-weight: 600;
+}
+
+.banner_software{
+    width: 100%;
+    height: 458px;
+    background-color: #F2F3F8;
+}
+
+.banner_software_wrapper{
+    width: 42%;
+    height: 100%;
+    margin: auto;
+}
+.banner_software_wrapper h1{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 100px;
+    color: #383E45;
+}
+
+.banner_software_wrapper p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #383E45;
+}
+
+.banner_software_images{
+    width: 57%;
+    height: 100px;
+    margin:10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_software_images img{
+    width: 60px;
+}
+
+.banner_premium{
+    width: 100%;
+    height: 372px;
+    background-color: #383E45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.banner_premium_box{
+    width: 570px;
+    height: 100%;
+    margin: 5px;
+}
+
+.banner_premium_box h1{
+    color: #F3EAE7;
+    font-size: 32px;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif; 
+}
+.banner_premium_box h3{
+    font-size: 22px;
+    color: #F3EAE7;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif; 
+    width: 658px;
+    font-weight: 500;
+}
+
+.banner_premium_box button{
+    width: 200px;
+    height: 56px;
+    background-color: #FFB400;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    color: rgb(36, 36, 36);
+    font-weight: 600;
+    margin: 145px;
+    margin-left: 64%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.banner_premium_box button:hover{
+    background-color: #f1f1f1;
+    transition: .3s;
+}
+
