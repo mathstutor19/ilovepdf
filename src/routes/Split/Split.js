@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import "./Merge.css";
-function Merge() {
+import "./Split.css";
+function Split() {
     const [count, setCount] = useState(true);
     // const [drag, setDrag] = useState(false);
     const [index, setIndex] = useState(-1);
@@ -26,10 +26,10 @@ function Merge() {
         <section>
             {count && (
                 <div>
-                    <h2 className="merge__title">Merge PDF files</h2>
+                    <h2 className="merge__title">Split PDF file</h2>
                     <p className="merge__text">
-                        Combine PDFs in the order you want with the easiest PDF
-                        merger available.
+                        Separate one page or a whole set for easy conversion
+                        into independent PDF files.
                     </p>
                     <div className="label__wrapper">
                         <label>
@@ -107,32 +107,18 @@ function Merge() {
                 <section className="selected">
                     <div className="selected__left">
                         <div></div>
-                        <p>
-                            <span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="26"
-                                    height="26"
-                                    fill="#fff"
-                                    className="bi bi-plus-lg"
-                                    viewBox="0 0 16 16">
-                                    <path d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
-                                </svg>
-                            </span>
-                        </p>
+                        
                     </div>
                     <div className="selected__right">
-                        <h3>Merge PDF </h3>
+                        <h3>SPLIT </h3>
                         <p>
                             Please, select more PDF files by clicking again on
                             ’Select PDF files’. <br /> Select multiple files by
                             mantaining pressed ’Ctrl’
                         </p>
                     </div>
-                    <button
-                        className="selected__right__button"
-                        disabled="disabled">
-                        <span>Merge PDF</span>
+                    <button className="selected__right__button">
+                        <span>Split PDF</span>
                         <span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -154,4 +140,4 @@ function Merge() {
     );
 }
 
-export default Merge;
+export default Split;

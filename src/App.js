@@ -10,6 +10,7 @@ import Home from "./routes/Home/Home";
 import Login from "./routes/Login/Login";
 import Register from "./routes/Register/Register";
 import Merge from "./routes/Merge/Merge";
+import Split from "./routes/Split/Split";
 function App() {
     return (
         <div>
@@ -20,6 +21,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/merge" element={<Merge />} />
+                        <Route path="/split" element={<Split />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
                     </Routes>

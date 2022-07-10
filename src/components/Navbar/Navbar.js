@@ -12,9 +12,11 @@ const Navbar = () => {
             <img src={logo} alt="" className="logo" />
             <ul className="navbar_collection">
                 <li>
-                   <Link to="/merge">MERGE PDF</Link>
+                    <Link to="/merge">MERGE PDF</Link>
                 </li>
-                <li>SPLIT PDF</li>
+                <li>
+                    <Link to="/split">SPLIT PDF</Link>
+                </li>
                 <li>COMPRESS PDF</li>
                 <li>
                     CONVERT PDF <AiFillCaretDown />
