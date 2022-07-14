@@ -231,7 +231,7 @@ ul li span {
 }
 
 .second-dropdown {
-    display: none;
+   
     border-top: 5px solid #e5322d;
     background: #fff;
     box-shadow: 0 3px 6px 0 rgb(50 50 50 / 30%);
@@ -296,7 +296,7 @@ ul li span {
 }
 
 .right-corner-box {
-    display: none;
+   
     background: #fff;
     box-shadow: 0 3px 6px 0 rgb(50 50 50 / 30%);
     position: absolute;
@@ -308,6 +308,7 @@ ul li span {
 
 .right-corner-box>ul>li {
     display: flex;
+    position: relative;
     padding: 5px 10px;
     height: 47px;
     align-items: center;
@@ -318,10 +319,21 @@ ul li span {
 }
 
 .right-corner-box>ul>li:hover {
-    border-left: 5px solid #e5322d;
+   
     background-color: rgb(239, 243, 246);
     cursor: pointer;
-    color: #e5322d;
+    
+}.right-corner-box>ul>li:hover::before{
+    opacity: 1;
+}
+.right-corner-box>ul>li::before{
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    margin: 0;padding: 0;
+    left: 0;background-color: #e5322d;
 }
 
 .first-img {
@@ -397,7 +409,7 @@ ul li span {
 
 .product-box {
     position: absolute;
-    display: none;
+    
     background: #fff;
     box-shadow: 0 3px 6px 0 rgb(50 50 50 / 30%);
     width: 200px;
@@ -410,16 +422,26 @@ ul li span {
     height: 45px;
     display: flex;
     align-items: center;
-
+    position: relative;
     padding: 20px;
 
 }
 
 .product-box ul li:hover {
-    border-left: 5px solid #e5322d;
+   
     background-color: rgb(239, 243, 246);
     cursor: pointer;
     color: #e5322d;
+}.product-box ul li:hover::before{
+opacity: 1;
+}.product-box ul li::before{
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    margin: 0;padding: 0;
+    left: 0;background-color: #e5322d;
 }
 
 .product-icon {
@@ -442,16 +464,27 @@ ul li span {
     height: 45px;
     padding: 1px;
     display: flex;
+    position: relative;
     align-items: center;
     gap: 15px;
     padding-left: 10px;
 }
 
 .solution-box ul li:hover {
-    border-left: 5px solid #e5322d;
+    
     background-color: rgb(239, 243, 246);
     cursor: pointer;
     color: #e5322d;
+}.solution-box ul li:hover::before{
+    opacity: 1;
+}.solution-box ul li::before{
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    margin: 0;padding: 0;
+    left: 0;background-color: #e5322d;
 }
 
 .solution-box li span {
@@ -473,16 +506,26 @@ ul li span {
     height: 45px;
     padding: 1px;
     display: flex;
+    position: relative;
     align-items: center;
     gap: 15px;
     padding-left: 10px;
 }
 
 .help-box ul li:hover {
-    border-left: 5px solid #e5322d;
     background-color: rgb(239, 243, 246);
     cursor: pointer;
     color: #e5322d;
+}.help-box ul li:hover::before{
+    opacity: 1;
+}.help-box ul li::before{
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    margin: 0;padding: 0;
+    left: 0;background-color: #e5322d;
 }
 
 .help-box ul li img {
