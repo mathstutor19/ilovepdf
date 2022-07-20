@@ -1,0 +1,106 @@
+.sheetone {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .sheetone h1 {
+    font-size: 40px;
+    color: #383e45;
+    font-weight: 600;
+  }
+  .sheetone p {
+    font-size: 22px;
+    color: #383e45;
+  }
+  .sheettwo {
+    width: 100%;
+    height: 250px;
+    background-color: #880104;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sheettwo h2 {
+    color: white;
+    font-size: 30px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    font-weight: 500;
+  }
+  .sheetthree {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .sheetthree .teamstory {
+    text-align: center;
+    font-size: 30px;
+    color: #383e45;
+  }
+  .sheetthree .infostory {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 22px;
+    text-align: center;
+    color: #383e45;
+  }
+  .teamimage {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-image: url("../../Assets/marco.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .teams{
+      text-align: center;
+  }
+  .ourteam{
+      width: 23%;
+      display: inline-block;
+      margin: 10px;
+  }
+  .imgteam {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    width: 52px;
+    height: 52px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ff6a58;
+    border-radius: 100%;
+    -webkit-transform-origin: 50% -80px;
+    transform-origin: 50% -80px;
+    /* -webkit-transform: rotate(-45deg); */
+    /* transform: rotate(-45deg); */
+    border: 4px solid #fff;
+    transition: .5s;
+  }
+  .ourteam:hover .imgteam{
+      top: 25%;
+      left: 75%;
+  }
+  .nameteam{
+      font-size: 22px;
+      margin: 0px;
+      margin-top: 15px;
+      font-weight: 500;
+  }
+  .jobteam{
+      color: #383e45;
+      margin-top: 0px;
+  }
+  @media(max-width: 400px){
+    .ourteam{
+      width: 50%;
+    }
+    .teams{
+      margin-left: -5%;
+      text-align: center;
+    }
+  }

@@ -311,19 +311,19 @@ const Navbar = () => {
                             <div className="help-box">
                                 <ul>
                                     <li>
-                                        <SmsSharpIcon className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>FAQ</span>
+                                        <Link to="/faq" > <SmsSharpIcon className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>FAQ</span></Link>
                                     </li>
                                     <li>
-                                        <BuildSharpIcon className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>Tools</span>
+                                        <Link to="/tools" > <BuildSharpIcon className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>Tools</span></Link>
                                     </li>
                                     <li>
-                                        <FaBook className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>Legal & Privacy</span>
+                                        <Link to="/legal" > <FaBook className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>Legal & Privacy</span></Link>
                                     </li>
                                     <li>
-                                        <img src={logoCopy} alt="" /><span className="story">Our Story</span>
+                                        <Link to="/story" > <img src={logoCopy} alt="" /><span className="story">Our Story</span></Link>
                                     </li>
                                     <li>
-                                        <EmailSharpIcon className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>Contact</span>
+                                        <Link to="/contact" > <EmailSharpIcon className="product-icon" style={{ color: "rgb(164, 165, 168)" }} /><span>Contact</span></Link>
                                     </li>
                                 </ul>
                             </div>

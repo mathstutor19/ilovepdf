@@ -1,0 +1,72 @@
+.headfaq{
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    /* box-sizing: border-box; */
+}
+.ourfaq{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #383e45;
+}
+.weh3{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    color: #383e45;
+    font-size: 22px;
+}
+.infofaq{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forinfo{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.infotext{
+    width: 95%;
+    margin-left: 5%;
+}
+.forinfo .iconstyle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff7d6d;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconmd{
+    color: #fff;
+    transform: scale(1.5);
+}
+.infotext h4{
+    color: #383e45;
+    font-size: 22px;
+    font-weight: 500;
+}
+.infofaq p{
+    color: #383e45;
+}
+@media(max-width:400px){
+    .infofaq{
+        display: block;
+    }
+    .forinfo{
+        width: 90%;
+        margin: auto;
+    }
+
+}

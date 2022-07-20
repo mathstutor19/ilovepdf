@@ -1,0 +1,46 @@
+.headtool{
+    width: 60%;
+    margin-left: 20%;
+    color: #383e45;
+}
+.headtool h4{
+    font-size: 21px;
+    font-weight: 600;
+}
+.weltool{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    color: #383e45;
+}
+.welh5{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: -30px;
+}
+.titleinfo{
+    color: #969696;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.linetool{
+    color: #969696;
+    margin-top: -16px;
+}
+.infotool{
+    display: flex;
+    justify-content: center;
+}
+.infoo{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.icontool{
+    color: #ff7d6d;
+    /* margin-top: 10px; */
+    transform: scale(1.4);
+    margin-top: 16px;
+}
