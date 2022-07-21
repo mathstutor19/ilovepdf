@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import "./story.css"
-import Navbar from "../Navbar/Navbar";
-import Footer from "../footer/Footer";
 import { MdSecurity } from "react-icons/md";
-// import macro from "../img/marco.png";
 export default class Story extends Component {
   render() {
     return (
-      <div>
-        <Navbar/>
+      <div className="storypage">
         <div className="headstory">
           <div className="sheetone">
             <h1>Our Story</h1>
@@ -80,7 +76,6 @@ export default class Story extends Component {
             </div>
           </div>
         </div>
-        <Footer/>
       </div>
     );
   }

@@ -4,14 +4,11 @@ import { IoMdCopy } from "react-icons/io";
 import { SiAdobecreativecloud } from "react-icons/si";
 import { BsCheckLg, BsCloudFill } from "react-icons/bs";
 import { MdOutlineComputer, MdMessage, MdWarning } from "react-icons/md";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../footer/Footer";
 import "./faq.css";
 export default class Faq extends Component {
   render() {
     return (
-      <div>
-        {/* <Navbar/> */}
+      <div className="faqpage">
         <div className="headfaq">
           <h1 className="ourfaq">
             Our support team answers the following questions nearly every day
@@ -47,7 +44,8 @@ export default class Faq extends Component {
               </div>
             </div>
           </div>
-          <hr />
+
+         <br/> <hr />
           <div className="infofaq">
             <div className="forinfo">
               <div className="iconstyle">
@@ -72,7 +70,7 @@ export default class Faq extends Component {
               </div>
             </div>
           </div>
-          <hr />
+         <br/> <hr />
           <div className="infofaq">
             <div className="forinfo">
               <div className="iconstyle">
@@ -97,7 +95,7 @@ export default class Faq extends Component {
               </div>
             </div>
           </div>
-          <hr />
+         <br/> <hr />
           <div className="infofaq">
             <div className="forinfo">
               <div className="iconstyle">
@@ -123,7 +121,6 @@ export default class Faq extends Component {
             </div>
           </div>
         </div>
-        <Footer/>
       </div>
     );
   }

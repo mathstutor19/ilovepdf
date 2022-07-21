@@ -1,10 +1,10 @@
-.contact{
+.contpage .contact{
     text-align: center;
     font-size: 44px;
     font-weight: 500;
     color: #383e45;
 }
-.headcont p{
+.contpage .headcont p{
     width: 50%;
     margin: auto;
     text-align: center;
@@ -12,11 +12,13 @@
     font-weight: 400;
     color: #383e45;
 }
-.outputinfo{
+.contpage .outputinfo{
     width: 33%;
     margin: auto;
 }
-.outputinfo .inp{
+.contpage .outputinfo .inpcont{
+    display: block;
+    padding: 5px;
     width: 100%;
     outline: 1px solid gray;
     height: 33px;
@@ -27,10 +29,7 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.label{
-    margin-top: 30px;
-}
-.writetext{
+.contpage .writetext{
     width: 100%;
     outline: 1px solid gray;
     font-size: 18px;
@@ -40,7 +39,7 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.sentmes{
+.contpage .sentmes{
     width: 50%;
     height: 40px;
     font-size: 20px;
@@ -51,15 +50,15 @@
     cursor: pointer;
     transition: .3s;
 }
-.sentmes:hover{
+.contpage .sentmes:hover{
     background-color: black;
 }
 @media(max-width:400px){
-    .outputinfo{
+    .contpage .outputinfo{
         width: 90%;
         margin: auto;
     }
-    .headcont p{
+    .contpage .headcont p{
         width: 90%;
         margin: auto;
     }

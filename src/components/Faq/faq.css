@@ -1,10 +1,10 @@
-.headfaq{
+.faqpage .headfaq{
     width: 90%;
     margin-left: 5%;
     padding-bottom: 50px;
     /* box-sizing: border-box; */
 }
-.ourfaq{
+.faqpage .ourfaq{
     width: 70%;
     margin: auto;
     text-align: center;
@@ -12,7 +12,7 @@
     font-weight: 500;
     color: #383e45;
 }
-.weh3{
+.faqpage .weh3{
     width: 70%;
     margin: auto;
     text-align: center;
@@ -20,24 +20,24 @@
     color: #383e45;
     font-size: 22px;
 }
-.infofaq{
+.faqpage .infofaq{
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.forinfo{
+.faqpage .forinfo{
     width: 45%;
     margin: auto;
     display: flex;
     justify-content: center;
 
 }
-.infotext{
+.faqpage .infotext{
     width: 95%;
     margin-left: 5%;
 }
-.forinfo .iconstyle{
+.faqpage .forinfo .iconstyle{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -48,23 +48,23 @@
     justify-content: center;
     align-items: center;
 }
-.iconmd{
+.faqpage .iconmd{
     color: #fff;
-    transform: scale(1.5);
+    transform: scale(1.faqpage .5);
 }
-.infotext h4{
+.faqpage .infotext h4{
     color: #383e45;
     font-size: 22px;
     font-weight: 500;
 }
-.infofaq p{
+.faqpage .infofaq p{
     color: #383e45;
 }
 @media(max-width:400px){
-    .infofaq{
+    .faqpage .infofaq{
         display: block;
     }
-    .forinfo{
+    .faqpage .forinfo{
         width: 90%;
         margin: auto;
     }

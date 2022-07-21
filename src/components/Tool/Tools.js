@@ -1,19 +1,16 @@
 import React, { Component } from "react";
 import { BsFillAspectRatioFill } from "react-icons/bs";
 import "./tools.css";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../footer/Footer";
 export default class Tools extends Component {
   render() {
     return (
-      <div>
-        <Navbar/>
+      <div className="toolpage" >
         <div className="headtool">
           <h1 className="weltool">Welcome to our user's guide</h1>
-          <h5 className="welh5">
+          <div className="welh5">
             Although we have tried to make it really simple, here is a short
             guidance to help you through the editing process.
-          </h5>
+          </div>
           <h2 className="titleinfo">ORGANIZE PDF</h2>
           <hr className="linetool" />
           <div className="infotool">
@@ -21,7 +18,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Merge PDF</h4>
+              <h4 className="titletool" >Merge PDF</h4>
               <p>
                 To merge two or more PDFs, select the documents from your device
                 or from your Google Drive or Dropbox account. You can arrange
@@ -43,7 +40,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Split PDF</h4>
+              <h4 className="titletool" >Split PDF</h4>
               <p>
                 To split a PDF into different files, select the document from
                 your device or from your cloud storage accounts such as Google
@@ -66,7 +63,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Remove Pages</h4>
+              <h4 className="titletool" >Remove Pages</h4>
               <p>
                 To remove pages from one or multiple PDFs, upload your file from
                 your device or download it from your cloud-connected accounts as
@@ -92,7 +89,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Extract Pages</h4>
+              <h4 className="titletool" >Extract Pages</h4>
               <p>
                 To extract pages from a PDF file, upload your file from your
                 device or from your cloud storage accounts as Google Drive or
@@ -118,7 +115,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Organize PDF</h4>
+              <h4 className="titletool" >Organize PDF</h4>
               <p>
                 Watermark IMAGE Organize PDF To organize the pages from a PDF
                 file, upload your file from your device or download it straight
@@ -146,7 +143,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Compress PDF</h4>
+              <h4 className="titletool" >Compress PDF</h4>
               <p>
                 To compress PDF files, select the documents from your device or
                 from your Google Drive or Dropbox account. Upload the file or
@@ -172,7 +169,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Edit PDF</h4>
+              <h4 className="titletool" >Edit PDF</h4>
               <p>
                 To edit your PDF, upload your file from your device or from your
                 Google Drive or Dropbox account.
@@ -209,7 +206,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Add page numbers</h4>
+              <h4 className="titletool" >Add page numbers</h4>
               <p>
                 To number PDF pages, upload your files from your device or from
                 your Google Drive or Dropbox account. Choose if you want to
@@ -232,7 +229,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Add watermark</h4>
+              <h4 className="titletool" >Add watermark</h4>
               <p>
                 To watermark PDF files, upload your PDF from your device or from
                 your Google Drive or Dropbox account. You can combine text and
@@ -255,7 +252,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>Repair PDF</h4>
+              <h4 className="titletool" >Repair PDF</h4>
               <p>
                 To repair a PDF, upload your damaged or corrupt PDF file from
                 your device or from your Google Drive or Dropbox account. Our
@@ -280,7 +277,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>JPG to PDF</h4>
+              <h4 className="titletool" >JPG to PDF</h4>
               <p>
                 To convert one or multiple files JPG to PDF, upload your images
                 form your device or straight from your Google Drive or Dropbox
@@ -303,7 +300,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>WORD to PDF</h4>
+              <h4 className="titletool" >WORD to PDF</h4>
               <p>
                 To convert one or more documents from WORD to PDF, select the
                 documents from your device or from your cloud storage accounts
@@ -324,7 +321,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>POWERPOINT to PDF</h4>
+              <h4 className="titletool" >POWERPOINT to PDF</h4>
               <p>
                 To convert one or multiple files from Power Point to PDF, upload
                 the documents from your device or straight from the Cloud
@@ -347,7 +344,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>EXCEL to PDF</h4>
+              <h4 className="titletool" >EXCEL to PDF</h4>
               <p>
                 To convert one or multiple files from Excel to PDF, upload the
                 documents from your device or straight from your Google Drive or
@@ -370,7 +367,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>HTML to PDF</h4>
+              <h4 className="titletool" >HTML to PDF</h4>
               <p>
                 To convert a webpage to PDF, upload your images from your device
                 or straight from your Google Drive or Dropbox accounts.
@@ -397,7 +394,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>PDF to JPG</h4>
+              <h4 className="titletool" >PDF to JPG</h4>
               <p>
                 To convert a PDF to a JPG image, select the file from your
                 device or from your Google Drive or Dropbox account.
@@ -418,7 +415,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>PDF to WORD</h4>
+              <h4 className="titletool" >PDF to WORD</h4>
               <p>
                 To convert one or more documents from PDF to Word, select the
                 documents from your device or from your cloud storage accounts
@@ -440,7 +437,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>PDF to POWERPOINT</h4>
+              <h4 className="titletool" >PDF to POWERPOINT</h4>
               <p>
                 To convert PDF files to Power Point, upload the documents from
                 your device or straight from the cloud through Google Drive or
@@ -464,7 +461,7 @@ export default class Tools extends Component {
               <BsFillAspectRatioFill className="icontool" />
             </div>
             <div className="infoo">
-              <h4>PDF to EXCEL</h4>
+              <h4 className="titletool" >PDF to EXCEL</h4>
               <p>
                 To convert one or multiple files from PDF to Excel, upload the
                 documents from your device or straight from your Google Drive or
@@ -485,14 +482,14 @@ export default class Tools extends Component {
 
           <h2 className="titleinfo">TECH CONCEPTS</h2>
           <hr className="linetool" />
-          <h4>Password-protected files</h4>
+          <h4 className="titletool" >Password-protected files</h4>
           <p>
             If you process a password-protected file, we will ask you to help us
             open it. Once it has been opened and processed, we commit to not
             storing this password on our servers.
           </p>
           {/*  */}
-          <h4>Rotating files</h4>
+          <h4 className="titletool" >Rotating files</h4>
           <p>
             You can rotate your files by hovering the mouse over a file and
             clicking the () icon. But if you want to rotate more than 10 files
@@ -501,14 +498,14 @@ export default class Tools extends Component {
             to rotate them in the same direction.
           </p>
           {/*  */}
-          <h4>JPG to PDF rotation</h4>
+          <h4 className="titletool" >JPG to PDF rotation</h4>
           <p>
             Rotating an image in a PDF document only affects the image.
             Afterwards, you will be able to choose the page orientation
             (vertical or horizontal) with the newly rotated image.
           </p>
           {/*  */}
-          <h4>Organizing files</h4>
+          <h4 className="titletool" >Organizing files</h4>
           <p>
             Files can be organized in different ways. Drag and drop them however
             like; you can also arrange them alphabetically by clicking the ()
@@ -516,7 +513,7 @@ export default class Tools extends Component {
             alphabetical order clicking the () icon.
           </p>
           {/*  */}
-          <h4>Compressing files</h4>
+          <h4 className="titletool" >Compressing files</h4>
           <p>
             After processing your files, you will see the original file size and
             by what percentage they've been reduced. In the case of PDF files
@@ -524,7 +521,7 @@ export default class Tools extends Component {
             further.
           </p>
           {/*  */}
-          <h4>Uploading and processing</h4>
+          <h4 className="titletool" >Uploading and processing</h4>
           <p>
             The uploading and processing time for files will depend on your
             Internet connection and on the size of the files you have selected.
@@ -533,7 +530,7 @@ export default class Tools extends Component {
             'Last files processed' section.
           </p>
           {/*  */}
-          <h4>Downloading</h4>
+          <h4 className="titletool" >Downloading</h4>
           <p>
             The output files will be deleted from our servers after a period of
             time, depending on your user type. You can also save it straight
@@ -541,7 +538,7 @@ export default class Tools extends Component {
             cancel the validity of the download link whenever you want.
           </p>
           {/*  */}
-          <h4>Working from the cloud</h4>
+          <h4 className="titletool" >Working from the cloud</h4>
           <p>
             You don't need to have the files you want to process stored on your
             device. If you have a Google Drive or Dropbox Account, you can
@@ -553,7 +550,7 @@ export default class Tools extends Component {
             working from a mobile device or tablet.
           </p>
           {/*  */}
-          <h4>Select files to upload</h4>
+          <h4 className="titletool" >Select files to upload</h4>
           <p>
             To select files from your computer, you can do it by hitting on the
             'Select images' button. If you want to select more than one file at
@@ -563,7 +560,7 @@ export default class Tools extends Component {
             straight to our canvas.
           </p>
           {/*  */}
-          <h4>Minimum requirements</h4>
+          <h4 className="titletool" >Minimum requirements</h4>
           <p>
             We recommend using our tools from the following browsers: Chrome,
             Firefox, Explorer +10 and Safari. When working from Explorer version
@@ -571,7 +568,7 @@ export default class Tools extends Component {
             iLovePDF needs to work with Javascript enabled.
           </p>
           {/*  */}
-          <h4>Technical issues</h4>
+          <h4 className="titletool" >Technical issues</h4>
           <p>
             This new version of iLovePDF has been designed to be much easier to
             work with, and we have tried to tackle any technical issue. However,
@@ -582,7 +579,6 @@ export default class Tools extends Component {
           </p>
           {/*  */}
         </div>
-        <Footer/>
       </div>
     );
   }

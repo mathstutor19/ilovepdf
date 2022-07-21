@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import {MdOutlineSecurity, MdOutlinePrivacyTip} from "react-icons/md"
 import {ImFilesEmpty} from "react-icons/im"
 import {BiCookie} from "react-icons/bi"
-import Navbar from "../Navbar/Navbar";
-import Footer from "../footer/Footer";
 import "./legal.css"
 import software from "../../Assets/software.svg"
 import software2 from "../../Assets/software2.svg"
@@ -11,8 +9,7 @@ import software3 from "../../Assets/software3.svg"
 export default class Legal extends Component {
   render() {
     return (
-      <div className="legal">
-        <Navbar/>
+      <div className="legalpage">
         <div className="headlegal">
           <h1>iLovePDF Data Security and Privacy policies</h1>
           <div className="cardslegal">
@@ -71,7 +68,6 @@ export default class Legal extends Component {
                   </div>
               </div>
           </div>
-          <Footer/>
       </div>
     );
   }
