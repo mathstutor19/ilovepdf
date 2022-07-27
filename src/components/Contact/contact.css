@@ -53,9 +53,9 @@
 .contpage .sentmes:hover{
     background-color: black;
 }
-@media(max-width:400px){
+@media(max-width:1000px){
     .contpage .outputinfo{
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
     .contpage .headcont p{

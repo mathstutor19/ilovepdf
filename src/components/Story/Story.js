@@ -48,31 +48,25 @@ export default class Story extends Component {
             </p>
             <div className="teams">
             <div className="ourteam">
-                <div className="teamimage"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
+                <div className="teamimage teamimage1"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
                 <h5 className="nameteam">Marco Grossi</h5>
                 <p className="jobteam">Founder & CEO</p>
               </div>
               <div className="ourteam">
-                <div className="teamimage"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
-                <h5 className="nameteam">Marco Grossi</h5>
-                <p className="jobteam">Founder & CEO</p>
+                <div className="teamimage teamimage2"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
+                <h5 className="nameteam">Aleix</h5>
+                <p className="jobteam">Software Engineer</p>
               </div>
               <div className="ourteam">
-                <div className="teamimage"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
-                <h5 className="nameteam">Marco Grossi</h5>
-                <p className="jobteam">Founder & CEO</p>
+                <div className="teamimage teamimage3"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
+                <h5 className="nameteam">Anna</h5>
+                <p className="jobteam">Marketing</p>
               </div>
               <div className="ourteam">
-                <div className="teamimage"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
+                <div className="teamimage teamimage4"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
                 <h5 className="nameteam">Marco Grossi</h5>
-                <p className="jobteam">Founder & CEO</p>
-              </div>
-              <div className="ourteam">
-                <div className="teamimage"><div className="imgteam"><MdSecurity className="iconstory" /></div></div>
-                <h5 className="nameteam">Marco Grossi</h5>
-                <p className="jobteam">Founder & CEO</p>
-              </div>
-              
+                <p className="jobteam">Project Manager</p>
+              </div>                       
             </div>
           </div>
         </div>

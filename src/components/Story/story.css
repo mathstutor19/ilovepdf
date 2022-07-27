@@ -47,13 +47,27 @@
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  background-image: url("../../Assets/marco.png");
   background-size: cover;
   background-position: center;
   position: relative;
 }
-.storypage .teams {
-  text-align: center;
+.storypage .teamimage1{
+  background-image: url("../../Assets/marco.png");
+}
+.storypage .teamimage2{
+  background-image: url("../../Assets/aleix.png");
+}
+.storypage .teamimage3{
+  background-image: url("../../Assets/anna.png");
+}
+.storypage .teamimage4{
+  background-image: url("../../Assets/curial.png");
+}
+.storypage .teams{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
 }
 .storypage .ourteam {
   width: 23%;
@@ -93,12 +107,18 @@
   color: #383e45;
   margin-top: 0px;
 }
-@media (max-width: 400px) {
-  .storypage .ourteam {
-    width: 50%;
+@media(max-width: 500px){
+  .storypage .teams{display: block;}
+  .storypage .ourteam{
+    width: 60%;
+    margin: auto;
   }
-  .storypage .teams {
-    margin-left: -5%;
-    text-align: center;
+}
+@media(min-width:501px) and (max-width:900px){
+  .storypage .teams{display: block;}
+  .storypage .ourteam{
+    display: inline-block;
+    width: 45%;
+    margin: auto;
   }
 }
