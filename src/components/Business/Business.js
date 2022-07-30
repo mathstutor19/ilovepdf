@@ -244,7 +244,7 @@ export default class Business extends Component {
             </div>
             <div className="cardbus">
               <img
-                src="https://www.ilovepdf.com/img/business/secure-shield.svg"
+                src="https://www.ilovepdf.com/img/business/website.svg"
                 alt=""
               />
               <h3>Streamline document workflows</h3>
@@ -255,7 +255,7 @@ export default class Business extends Component {
             </div>
             <div className="cardbus">
               <img
-                src="https://www.ilovepdf.com/img/business/secure-shield.svg"
+                src="https://www.ilovepdf.com/img/business/website.svg"
                 alt=""
               />
               <h3>Streamline document workflows</h3>
