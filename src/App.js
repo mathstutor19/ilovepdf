@@ -16,6 +16,7 @@ import Contact from "./components/Contact/Contact";
 import Story from "./components/Story/Story";
 import Legal from "./components/Legal/Legal";
 import Tools from "./components/Tool/Tools";
+import Business from "./components/Business/Business";
 function App() {
     return (
         <div>
@@ -34,6 +35,7 @@ function App() {
                         <Route path="/legal" element={<Legal />} />
                         <Route path="/tools" element={<Tools />} />
                         <Route path="/contact" element={<Contact />} />
+                        <Route path="/business" element={<Business />} />
                     </Routes>
                 </BrowserRouter>
             </Context.Provider>

@@ -341,13 +341,14 @@ const Navbar = () => {
               <KeyboardArrowRightSharpIcon className="icon second-arrow" />
               <div className="solution-box">
                 <ul>
+                    <Link to="/business">
                   <li>
                     <BusinessSharpIcon
                       className="product-icon"
                       style={{ color: "rgb(164, 165, 168)" }}
                     />
                     <span>Bussines</span>
-                  </li>
+                  </li></Link>
                   <li>
                     <SchoolSharpIcon
                       className="product-icon"
