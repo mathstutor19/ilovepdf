@@ -245,6 +245,7 @@
     align-items: center;
   }
   .business .sheetseven .sevencard {
+    position: relative;
     padding: 20px;
     box-sizing: border-box;
     background: #f2f3f8;
@@ -253,6 +254,16 @@
     border-radius: 8px;
     -ms-flex: 1 0;
     flex: 1 0;
+  }
+  .business .sheetseven .sevencard .cardrt{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .business .cardrt img{
+    width: 100%;
   }
   .business .sheetseven .sevencard h2 {
     font-size: 24px;
@@ -267,6 +278,7 @@
     font-weight: 600;
   }
   .business .sheetseven .sevencard span {
+    margin: 40px 0px 20px 0px;
     min-width: 200px;
     padding: 10px 24px 14px;
     text-shadow: none;

@@ -6,6 +6,7 @@ import three from "../../Assets/3.png";
 import four from "../../Assets/4.png";
 import five from "../../Assets/5.png";
 import six from "../../Assets/6.png";
+import cardrt from "../../Assets/cardrt.png";
 import "./business.css";
 export default class Business extends Component {
   render() {
@@ -206,6 +207,9 @@ export default class Business extends Component {
           <h1 className="headseven">Transparent tiered pricing</h1>
           <div className="sevencards">
             <div className="sevencard">
+            <div className="cardrt">
+                    <img src={cardrt} alt="" />
+                </div>
               <h2>Small Teams</h2>
               <strong>2-25 Users</strong>
               <h1>41$</h1>
@@ -213,6 +217,9 @@ export default class Business extends Component {
               <span>Get Started</span>
             </div>
             <div className="sevencard">
+            <div className="cardrt">
+                    <img src={cardrt} alt="" />
+                </div>
               <h2>Small Teams</h2>
               <strong>2-25 Users</strong>
               <h1>41$</h1>
@@ -220,6 +227,9 @@ export default class Business extends Component {
               <span>Get Started</span>
             </div>
             <div className="sevencard">
+            <div className="cardrt">
+                    <img src={cardrt} alt="" />
+                </div>
               <h2>Small Teams</h2>
               <strong>2-25 Users</strong>
               <h1>41$</h1>
